@@ -1,33 +1,41 @@
-let x;
-
-x = 1;
-
-
-
-
-
-x = 2 === '2';
-
-x = 2 !== '2';
-
-x = 10 > 5;
-
-x = null;
+// const library = [
+//     {
+//         title: "I'm a Book",
+//         author: "Charles Writer",
+//         status: {
+//             own: true,
+//             reading: false,
+//             read: false,
+//         },
+//     }
+// ]
 
 
-const myString = 'developer';
+// library[0].status.read = true
 
-let substring = myString.;
+// const { author, title } = library[0]
 
-let spliceString = myString.padEnd(15, "-")
-let sString = myString.log()
+// x = library[0].status
 
-let string = myString.charAt(2).toUpperCase();
+// newLib = JSON.stringify(library)
 
-x = 50;
-
-y = x.
-
-console.log(sString)
-
+// console.log(author, title)
 // console.log(x, typeof x); // Output: 1
+
+function sayHello() {
+    console.log("Hello!");
+}
+
+sayHello()
+
+function add(x, y) {
+    console.log(x + y)
+}
+
+add(3, 5)
+
+function subtract(x, y) {
+    return x - y
+}
+
+subtract(10, 2)
